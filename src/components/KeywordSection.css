@@ -1,0 +1,142 @@
+/* 1. 전체 컨테이너 */
+.keyword-section {
+  max-width: 1200px;
+  margin: 100px auto;
+  padding: 0 20px;
+}
+
+.keyword-inner {
+  display: flex; 
+  gap: 60px;
+}
+
+/* 2. 왼쪽 사이드바 (해시태그) */
+.keyword-sidebar {
+  width: 180px;
+  text-align: left;
+}
+
+.keyword-sidebar h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.keyword-sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.keyword-sidebar li {
+  font-size: 16px;
+  color: #999;
+  padding: 15px 0;
+  cursor: pointer;
+  transition: all 0.3s;
+  border-bottom: 1px solid transparent;
+}
+
+/* 🚨 활성화된 태그 (검정색 볼드 + 밑줄) */
+.keyword-sidebar li.active {
+  color: #000;
+  font-weight: bold;
+  border-bottom: 2px solid #000;
+  display: inline-block;
+}
+
+/* 3. 오른쪽 상품 콘텐츠 영역 */
+.keyword-content {
+  flex: 1;
+}
+
+.keyword-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3개씩 나란히 */
+  gap: 35px;
+}
+
+/* 링크 스타일 초기화 */
+.keyword-card a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+/* 4. 상품 카드 이미지 */
+.keyword-img-box {
+  position: relative;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  border-radius: 12px;
+  background-color: #f9f9f9;
+}
+
+.keyword-img-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.keyword-card:hover img {
+  transform: scale(1.08);
+}
+
+/* 🛒 장바구니 아이콘 */
+.cart-icon-small {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  background: #fff;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  font-size: 18px;
+}
+
+/* 5. 상품 정보 (짤림 제한 해제!) */
+.keyword-info {
+  padding: 15px 0;
+  text-align: left;
+}
+
+.kw-title {
+  font-size: 15px;
+  color: #333;
+  margin-bottom: 8px;
+  line-height: 1.4;
+  
+  /* 🚨 짤리는 제한 코드를 지우고 원래대로 돌립니다! */
+  display: block;        /* webkit-box에서 block으로 변경 */
+  overflow: visible;     /* 넘쳐도 숨기지 않음 */
+  text-overflow: clip;   /* ... 표시 안 함 */
+  white-space: normal;   /* 줄바꿈 허용 */
+  -webkit-line-clamp: unset; /* 줄 수 제한 해제 */
+}
+
+.kw-price {
+  font-size: 17px;
+  font-weight: bold;
+}
+/* 6. 더보기 버튼 */
+.view-more-btn {
+  width: 100%;
+  padding: 18px;
+  background: #fff;
+  border: 1px solid #eee;
+  color: #888;
+  font-size: 15px;
+  margin-top: 50px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.view-more-btn:hover {
+  background: #f4f4f4;
+  color: #333;
+}

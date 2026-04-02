@@ -1,38 +1,524 @@
-.App {
+/* ==========================================
+   1. 기본 리셋 및 폰트
+   ========================================== */
+body { margin: 0; padding: 0; font-family: 'Pretendard', -apple-system, sans-serif; -webkit-font-smoothing: antialiased; }
+
+/* ==========================================
+   2. 상단 공지 바 (TopNotice)
+   ========================================== */
+.top-notice {
+  background-color: #000; color: #fff; font-size: 11px;
+  padding: 8px 0; display: flex; justify-content: center; position: relative;
+}
+.divider { margin: 0 15px; color: #333; }
+.top-close-btn { position: absolute; right: 20px; background: none; border: none; color: #fff; cursor: pointer; font-size: 14px; }
+
+/* ==========================================
+   3. 헤더 (Header)
+   ========================================== */
+.main-header {
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 15px 50px; background: #fff; border-bottom: 1px solid #eee;
+  position: sticky; top: 0; z-index: 1000;
+}
+.header-left { display: flex; align-items: center; gap: 15px; }
+.logo-img { height: 35px; cursor: pointer; }
+.hamburger { font-size: 20px; cursor: pointer; }
+
+.nav-menu { display: flex; list-style: none; gap: 30px; margin: 0; padding: 0; }
+.nav-menu li { font-size: 13px; font-weight: 700; color: #666; cursor: pointer; transition: color 0.2s; }
+.nav-menu li:hover { color: #000; }
+.gift-tag { color: #d4a373 !important; }
+
+.header-right { display: flex; align-items: center; gap: 15px; }
+.point-badge { font-size: 11px; background: #f5f5f5; padding: 4px 12px; border-radius: 20px; color: #999; }
+.icon-group { display: flex; gap: 20px; font-size: 18px; cursor: pointer; }
+
+/* ==========================================
+   4. 메인 배너 (MainBanner)
+   ========================================== */
+.banner-img { height: 650px; object-fit: cover; }
+.carousel-control-prev, .carousel-control-next { width: 5%; }
+
+/* ==========================================
+   5. 카테고리 메뉴 (CategoryMenu)
+   ========================================== */
+.category-container { display: flex; justify-content: center; gap: 40px; padding: 60px 0; background-color: #fff; }
+.category-item { display: flex; flex-direction: column; align-items: center; cursor: pointer; }
+.category-circle {
+  width: 120px; height: 120px; border-radius: 50%; overflow: hidden;
+  margin-bottom: 15px; transition: transform 0.3s;
+}
+.category-circle:hover { transform: scale(1.05); }
+.category-circle img { width: 100%; height: 100%; object-fit: cover; }
+.category-title { font-size: 14px; color: #333; font-weight: 500; margin: 0; }
+
+/* ==========================================
+   6. 공통 장바구니 버튼 스타일 (BEST 스타일로 통일)
+   ========================================== */
+.cart-btn-round, .cart-icon-small {
+  position: absolute; 
+  bottom: 15px; 
+  right: 15px; 
+  background: rgba(0,0,0,0.4); 
+  color: #fff; 
+  width: 36px; 
+  height: 36px; 
+  border-radius: 50%; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.cart-btn-round:hover, .cart-icon-small:hover {
+  background: rgba(0,0,0,0.6);
+}
+
+/* ==========================================
+   7. BEST 상품 슬라이더 (BestSellers)
+   ========================================== */
+.best-sellers-container { padding: 100px 50px; background: #fff; position: relative; }
+.best-title { text-align: center; font-weight: 300; letter-spacing: 12px; margin-bottom: 60px; font-size: 32px; }
+.product-card { width: 100%; cursor: pointer; text-align: left; }
+.product-img-wrapper { position: relative; border-radius: 12px; overflow: hidden; margin-bottom: 15px; }
+.p-img { width: 100%; height: 350px; object-fit: cover; }
+.best-number-badge { position: absolute; top: 0; left: 0; background: #000; color: #fff; padding: 5px 10px; font-size: 10px; font-weight: bold; text-align: center; line-height: 1.2; }
+
+.p-name { font-size: 14px; color: #333; margin: 0 0 8px 0; height: 40px; overflow: hidden; line-height: 1.4; }
+.current-price { font-weight: bold; font-size: 16px; color: #000; }
+.old-price { font-size: 13px; color: #ccc; text-decoration: line-through; margin-left: 8px; }
+.red-tag { background: #fde8e8; color: #e04f5f; font-size: 10px; font-weight: bold; padding: 2px 6px; border-radius: 3px; margin-right: 5px; }
+
+.swiper-button-next, .swiper-button-prev { width: 36px !important; height: 36px !important; background-color: rgba(255, 255, 255, 0.9) !important; border-radius: 50%; box-shadow: 0 2px 8px rgba(0,0,0,0.1); color: #333 !important; top: 40% !important; border: 1px solid #eee; }
+.swiper-button-next:after, .swiper-button-prev:after { font-size: 14px !important; font-weight: 800; }
+.swiper-button-prev { left: 15px !important; }
+.swiper-button-next { right: 15px !important; }
+
+/* ==========================================
+   8. 혜택 배너 (BenefitBanner)
+   ========================================== */
+.benefit-banner-section { background-color: #f7f7f7; padding: 30px 0; border-top: 1px solid #eee; border-bottom: 1px solid #eee; }
+.benefit-item { display: flex; justify-content: center; align-items: center; gap: 120px; height: 100px; }
+.benefit-text h3 { font-size: 24px; font-weight: 500; color: #222; margin: 0 0 5px 0; letter-spacing: -0.5px; }
+.benefit-text p { font-size: 14px; color: #666; margin: 0; }
+.benefit-icon { display: flex; align-items: center; }
+.benefit-swiper .swiper-button-next, .benefit-swiper .swiper-button-prev { color: #000 !important; background: none !important; border: none !important; box-shadow: none !important; }
+.benefit-swiper .swiper-button-next:after, .benefit-swiper .swiper-button-prev:after { font-size: 20px !important; font-weight: 100 !important; }
+
+/* ==========================================
+   9. 프로모션 섹션
+   ========================================== */
+.promo-container { display: flex; gap: 20px; padding: 80px 50px; background-color: #fff; max-width: 1300px; margin: 0 auto; height: auto; }
+.promo-left { flex: 1; border-radius: 15px; overflow: hidden; aspect-ratio: auto; }
+.promo-right { flex: 1; display: flex; flex-direction: column; gap: 20px; }
+.promo-rt, .promo-rb { flex: 1; border-radius: 15px; overflow: hidden; }
+.promo-left img, .promo-right img { width: 100%; height: auto; display: block; object-fit: contain; background-color: #f7f7f7; transition: none !important; transform: none !important; }
+.promo-left img:hover, .promo-right img:hover { transform: none !important; cursor: default; }
+.promo-swiper .swiper-button-next, .promo-swiper .swiper-button-prev { color: #fff !important; scale: 0.5; }
+.promo-swiper .swiper-pagination-bullet-active { background: #fff !important; }
+
+/* ==========================================
+   10. 인기 키워드 섹션 (KeywordSection)
+   ========================================== */
+.keyword-section { padding: 100px 50px; background: #fff; }
+.keyword-inner { display: flex; max-width: 1200px; margin: 0 auto; gap: 50px; }
+.keyword-sidebar { width: 200px; text-align: left; }
+.keyword-sidebar h2 { font-size: 24px; margin-bottom: 40px; font-weight: bold; }
+.keyword-sidebar ul { list-style: none; padding: 0; }
+.keyword-sidebar li { font-size: 16px; color: #bbb; cursor: pointer; margin-bottom: 15px; transition: 0.3s; }
+.keyword-sidebar li.active { color: #333; font-weight: bold; }
+.keyword-content { flex: 1; text-align: center; }
+.keyword-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; margin-bottom: 50px; }
+.keyword-card { text-align: left; cursor: pointer; }
+.keyword-img-box { position: relative; background: #f5f5f5; border-radius: 10px; overflow: hidden; margin-bottom: 15px; }
+.keyword-img-box img { width: 100%; height: 300px; object-fit: cover; }
+
+.kw-title { font-size: 13px; color: #333; margin-bottom: 5px; line-height: 1.4; height: 36px; overflow: hidden; }
+.kw-price { font-weight: bold; font-size: 15px; }
+.view-more-btn { border: 1px solid #333; background: #fff; padding: 10px 60px; border-radius: 30px; font-size: 14px; cursor: pointer; transition: 0.3s; }
+.view-more-btn:hover { background: #333; color: #fff; }
+
+/* ==========================================
+   11. MD'S Pick 섹션 (MdPick)
+   ========================================== */
+.md-section { padding: 100px 50px; background: #fff; text-align: center; }
+.md-title { font-size: 28px; font-weight: bold; margin-bottom: 50px; }
+.md-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 30px; max-width: 1300px; margin: 0 auto 60px; }
+.md-card { text-align: left; cursor: pointer; }
+.md-img-box { position: relative; border-radius: 12px; overflow: hidden; margin-bottom: 15px; }
+.md-img-box img { width: 100%; height: 320px; object-fit: cover; }
+.m-name { font-size: 14px; color: #333; margin-bottom: 8px; line-height: 1.4; height: 40px; overflow: hidden; }
+.m-price { font-weight: bold; font-size: 16px; margin-right: 8px; }
+.m-old { color: #ccc; text-decoration: line-through; font-size: 13px; }
+.badge-new { display: inline-block; background: #007bff; color: #fff; font-size: 10px; font-weight: bold; padding: 2px 6px; border-radius: 3px; }
+
+/* ==========================================
+   12. 푸터 (Footer)
+   ========================================== */
+.main-footer { padding: 60px 0; text-align: center; background-color: #fff; border-top: 1px solid #f0f0f0; }
+.main-footer p { color: #bbb; font-size: 11px; letter-spacing: 1px; }
+
+/* ==========================================
+   13. 앱 다운로드 배너 (사진 클릭형)
+   ========================================== */
+.app-download-section {
+  padding: 60px 50px;
+  background-color: #fff;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app-banner-link {
+  text-decoration: none;
+  display: inline-block;
+  width: 100%;
+  max-width: 1200px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.app-banner-box {
+  background-color: #f2f2f2; /* 연회색 배경 */
+  border-radius: 15px;
+  overflow: hidden;
+  transition: opacity 0.3s; /* 마우스 올렸을 때 효과 */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app-banner-box:hover {
+  opacity: 0.9; /* 살짝 투명해지면서 클릭 느낌 주기 */
+}
+
+.app-banner-img {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-banner-img img {
+  width: 100%;       /* 상자 너비에 맞춤 */
+  height: auto;      /* 사진 비율 유지 (안 잘림) */
+  max-height: 400px; /* 너무 커지지 않게 제한 (원하시는 대로 조절 가능) */
+  display: block;
+  object-fit: contain; /* 사진 전체 보존 */
+}
+
+/* ==========================================
+   14. 유튜브 비디오 섹션 (VideoSection)
+   ========================================== */
+.video-section {
+  background-color: #f7f7f7; /* 사진 속 연회색 배경 */
+  padding: 100px 0;
+}
+
+.video-swiper {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.video-slide-content {
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 80px;
+  padding: 40px 100px;
 }
 
-.App-link {
-  color: #61dafb;
+/* 왼쪽 텍스트 정렬 */
+.video-text-box {
+  flex: 0 0 300px;
+  text-align: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.v-title {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.v-subtitle {
+  font-size: 15px;
+  color: #888;
+  margin-bottom: 30px;
+}
+
+/* SHOP 버튼 스타일 */
+.v-shop-btn {
+  background: none;
+  border: 1px solid #333;
+  padding: 10px 50px;
+  font-size: 13px;
+  color: #333;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.v-shop-btn:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+/* 오른쪽 유튜브 박스 */
+.video-player-box {
+  flex: 1;
+  max-width: 700px;
+  aspect-ratio: 16 / 9; /* 영상 비율 고정 */
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+/* 유튜브 슬라이더 화살표 커스텀 (아주 얇고 큰 원형) */
+.video-swiper .swiper-button-next,
+.video-swiper .swiper-button-prev {
+  color: #333 !important;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  background: none !important;
+}
+
+.video-swiper .swiper-button-next:after,
+.video-swiper .swiper-button-prev:after {
+  font-size: 20px !important;
+}
+
+/* 도트 인디케이터 색상 */
+.video-swiper .swiper-pagination-bullet-active {
+  background: #333 !important;
+}
+
+/* ==========================================
+   15. 그릇세트 섹션 (SetSection)
+   ========================================== */
+.set-section { padding: 80px 50px; background: #fff; text-align: center; }
+.set-title { font-size: 26px; font-weight: bold; margin-bottom: 50px; color: #333; }
+
+.set-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4열 대칭 */
+  gap: 30px;
+  max-width: 1300px;
+  margin: 0 auto 60px;
+}
+
+.set-card { text-align: left; cursor: pointer; }
+.set-img-box {
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+.set-img-box img { width: 100%; height: 320px; object-fit: cover; }
+
+.s-name { font-size: 14px; color: #333; margin-bottom: 8px; line-height: 1.4; height: 40px; overflow: hidden; }
+.s-price { font-weight: bold; font-size: 16px; margin-right: 8px; }
+.s-old { color: #ccc; text-decoration: line-through; font-size: 13px; }
+
+.set-more { margin-top: 20px; }
+
+/* ==========================================
+   16. 신상품 섹션 (NewSection)
+   ========================================== */
+.new-section { padding: 80px 50px; background: #fff; text-align: center; }
+.new-title { font-size: 26px; font-weight: bold; margin-bottom: 50px; color: #333; }
+
+.new-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  max-width: 1300px;
+  margin: 0 auto 60px;
+}
+
+.new-card { text-align: left; cursor: pointer; }
+
+.new-img-box {
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+.new-img-box img { width: 100%; height: 320px; object-fit: cover; }
+
+/* 브랜드 이름 (회색 작은 글씨) */
+.brand-name { font-size: 11px; color: #aaa; margin-bottom: 5px; display: block; }
+
+.n-name { font-size: 14px; color: #333; margin: 0 0 8px 0; line-height: 1.4; height: 40px; overflow: hidden; }
+.n-price { font-weight: bold; font-size: 16px; margin-right: 8px; color: #000; }
+.n-old { color: #ccc; text-decoration: line-through; font-size: 13px; }
+
+/* 신상품 NEW 배지 (하늘색 느낌) */
+.badge-new-item {
+  display: inline-block;
+  background: #f0f7ff;
+  color: #5da7ef;
+  font-size: 10px;
+  font-weight: bold;
+  padding: 2px 6px;
+  border-radius: 3px;
+  border: 1px solid #d9ebff;
+  margin-top: 10px;
+}
+
+.new-more { margin-top: 20px; }
+
+/* ==========================================
+   17. 푸터 (Footer - 최종 대공사)
+   ========================================== */
+.footer-container {
+  background-color: #fff;
+  border-top: 1px solid #eee;
+  padding-top: 40px;
+  color: #666;
+  font-size: 12px;
+  text-align: left;
+}
+
+.footer-inner {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 50px;
+}
+
+/* 상단 4열 레이아웃 */
+.footer-top .footer-inner {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 40px;
+}
+
+.footer-col { flex: 1; }
+.col-title { font-size: 13px; font-weight: bold; color: #333; margin-bottom: 20px; display: flex; align-items: center; justify-content: space-between; padding-right: 40px; }
+.plus-icon { font-weight: normal; color: #ccc; font-size: 16px; cursor: pointer; }
+
+.footer-list { list-style: none; padding: 0; }
+.footer-list li { margin-bottom: 8px; color: #888; cursor: pointer; }
+
+.cs-info .tel { font-size: 24px; font-weight: bold; color: #333; margin-bottom: 5px; }
+.cs-info .tel-sub { font-size: 14px; margin-bottom: 10px; }
+.cs-info p { margin-bottom: 3px; color: #888; }
+
+.bank-info p { margin-bottom: 5px; color: #888; }
+
+.benefit-icons { display: flex; gap: 30px; }
+.icon-item { text-align: center; cursor: pointer; }
+.circle-icon { font-size: 30px; margin-bottom: 10px; }
+
+/* 중간 메뉴 바 */
+.footer-menu-bar {
+  border-top: 1px solid #f5f5f5;
+  border-bottom: 1px solid #f5f5f5;
+  padding: 15px 0;
+  background-color: #fafafa;
+}
+
+.menu-links { display: flex; list-style: none; padding: 0; margin: 0; gap: 40px; justify-content: center; }
+.menu-links li { cursor: pointer; color: #666; }
+.menu-links li.bold { font-weight: bold; color: #333; }
+
+/* 하단 상세 정보 */
+.footer-bottom { padding: 50px 0; }
+.bottom-flex { display: flex; justify-content: space-between; align-items: flex-start; }
+
+.footer-logo { font-size: 28px; font-weight: bold; color: #000; margin-bottom: 20px; letter-spacing: -1px; }
+.company-details p { margin-bottom: 4px; line-height: 1.6; color: #999; font-size: 11px; }
+.copyright { margin-top: 20px !important; color: #bbb !important; }
+
+.info-right { text-align: right; }
+.sns-icons { display: flex; gap: 15px; justify-content: flex-end; margin-bottom: 30px; color: #ccc; font-size: 20px; }
+.quick-links { list-style: none; padding: 0; text-align: right; }
+.quick-links li { margin-bottom: 8px; color: #999; cursor: pointer; }
+
+.detail-container { max-width: 1200px; margin: 0 auto; padding: 50px 20px; text-align: left; }
+.breadcrumb { font-size: 13px; color: #aaa; margin-bottom: 20px; }
+
+.detail-main { display: flex; gap: 60px; }
+
+/* 왼쪽 이미지 */
+.detail-left { flex: 1.2; }
+.main-img-box img { width: 100%; border-radius: 10px; }
+
+/* 오른쪽 정보 */
+.detail-right { flex: 1; }
+.brand { font-size: 14px; color: #888; }
+.title { font-size: 24px; font-weight: bold; margin: 10px 0 20px; color: #333; }
+.price-box { display: flex; align-items: center; gap: 10px; margin-bottom: 30px; }
+.discount { color: #e04f5f; font-weight: bold; font-size: 20px; }
+.price { font-size: 24px; font-weight: bold; }
+.old-price { color: #ccc; text-decoration: line-through; }
+
+.delivery-info { font-size: 14px; color: #666; line-height: 1.8; }
+
+.order-box { background: #f9f9f9; padding: 20px; border-radius: 5px; margin-top: 30px; }
+.quantity-selector { display: flex; align-items: center; gap: 15px; margin-bottom: 20px; }
+.quantity-selector button { width: 30px; height: 30px; border: 1px solid #ddd; background: #fff; cursor: pointer; }
+
+.total-price { text-align: right; font-size: 18px; }
+.total-price strong { color: #000; font-size: 24px; margin-left: 10px; }
+
+.action-btns { display: flex; gap: 10px; margin-top: 30px; }
+.cart-btn { flex: 1; height: 55px; border: 1px solid #333; background: #fff; cursor: pointer; }
+.buy-btn { flex: 1; height: 55px; background: #333; color: #fff; border: none; cursor: pointer; font-weight: bold; }
+
+/* 클릭 영역이 확실히 잡히도록! */
+.product-link-wrapper {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  z-index: 10; /* 클릭 우선순위 높이기 */
+}
+
+.detail-container { max-width: 1200px; margin: 0 auto; padding: 50px 20px; }
+.detail-main { display: flex; gap: 60px; margin-bottom: 100px; text-align: left; }
+
+.detail-left { flex: 1; }
+.main-detail-img { width: 100%; border-radius: 8px; }
+
+.detail-right { flex: 1; display: flex; flex-direction: column; gap: 20px; }
+.p-title { font-size: 28px; font-weight: bold; line-height: 1.4; }
+.p-price { font-size: 24px; font-weight: bold; color: #000; }
+.p-old { color: #ccc; text-decoration: line-through; font-size: 16px; margin-left: 10px; }
+
+/* 상세 이미지 리스트 */
+.detail-img-list {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column; /* 세로로 쌓기 */
+}
+
+.full-detail-img {
+  width: 100%;
+  height: auto;
+  display: block; /* 중요: 이미지 아래 미세한 틈새 제거 */
+  margin: 0;
+  padding: 0;
+}
+
+.detail-tabs {
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 40px;
+  position: sticky;
+  top: 80px;
+  background: #fff;
+  z-index: 5;
+}
+
+.detail-tabs button {
+  padding: 20px 40px;
+  border: none;
+  background: none;
+  font-size: 16px;
+  color: #999;
+  cursor: pointer;
+}
+
+.detail-tabs button.active {
+  color: #000;
+  font-weight: bold;
+  border-bottom: 2px solid #000;
 }
