@@ -1,0 +1,9 @@
+[
+  { "id": 1, "img": "/img/banner1.jpg", "alt": "배너 1" },
+  { "id": 2, "img": "/img/banner2.jpg", "alt": "배너 2" },
+  { "id": 3, "img": "/img/banner3.jpg", "alt": "배너 3" },
+  { "id": 4, "img": "/img/banner4.jpg", "alt": "배너 4" },
+  { "id": 5, "img": "/img/banner5.jpg", "alt": "배너 5" },
+  { "id": 6, "img": "/img/banner6.jpg", "alt": "배너 6" },
+  { "id": 7, "img": "/img/banner7.jpg", "alt": "배너 7" }
+]

@@ -1,8 +1,8 @@
 import React from 'react';
 import { useSearchParams, Link } from 'react-router-dom';
 import bestData from '../data'; // 메인 상품 데이터
-import { keywordData } from '../keywordData'; // 키워드 상품 데이터
-import { mdData } from '../mdData'; // 👈 1. MD 데이터 수입 완료!
+import keywordData from '../keywordData.json';
+import mdData from '../mdData.json';
 
 function SearchResult() {
   const [searchParams] = useSearchParams();

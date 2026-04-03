@@ -1,0 +1,104 @@
+[
+  {
+    "id": 200,
+    "title": "블랑 앞접시 찬기 4종 세트",
+    "price": "44,900",
+    "oldPrice": "60,000",
+    "img": "/img/md1.jpg",
+    "badge": "",
+    "detailImages": [
+      "/img/detail200_1.jpg", "/img/detail200_2.jpg", "/img/detail200_3.jpg",
+      "/img/detail200_4.jpg", "/img/detail200_5.jpg", "/img/detail200_6.jpg",
+      "/img/detail200_7.jpg", "/img/detail200_8.jpg", "/img/detail200_9.jpg"
+    ]
+  },
+  {
+    "id": 201,
+    "title": "화반 앞접시 꽃접시 4종 세트",
+    "price": "32,900",
+    "oldPrice": "40,000",
+    "img": "/img/md2.jpg",
+    "badge": "NEW",
+    "detailImages": [
+      "/img/detail201_1.jpg", "/img/detail201_2.jpg", "/img/detail201_3.jpg",
+      "/img/detail201_4.jpg", "/img/detail201_5.jpg", "/img/detail201_6.jpg"
+    ]
+  },
+  {
+    "id": 203,
+    "title": "오딧세이 패딩 런치박스 풀세트",
+    "price": "62,900",
+    "oldPrice": "125,000",
+    "img": "/img/md3.jpg",
+    "badge": "",
+    "detailImages": [
+      "/img/detail203_1.jpg", "/img/detail203_2.jpg", "/img/detail203_3.jpg",
+      "/img/detail203_4.jpg", "/img/detail203_5.jpg", "/img/detail203_6.jpg",
+      "/img/detail203_7.jpg", "/img/detail203_8.jpg", "/img/detail203_9.jpg",
+      "/img/detail203_10.jpg"
+    ]
+  },
+  {
+    "id": 204,
+    "title": "오딧세이 패딩 런치백 도시락가방 보냉백",
+    "price": "31,900",
+    "oldPrice": "50,000",
+    "img": "/img/md4.jpg",
+    "badge": "",
+    "detailImages": [
+      "/img/detail204_1.jpg", "/img/detail204_2.jpg", "/img/detail204_3.jpg",
+      "/img/detail204_4.jpg", "/img/detail204_5.jpg"
+    ]
+  },
+  {
+    "id": 205,
+    "title": "국립박물관 굿즈 굽다리 막걸리 고블렛 2P세트",
+    "price": "50,000",
+    "oldPrice": "",
+    "img": "/img/md5.jpg",
+    "badge": "",
+    "detailImages": [
+      "/img/detail205_1.jpg", "/img/detail205_2.jpg", "/img/detail205_3.jpg",
+      "/img/detail205_4.jpg", "/img/detail205_5.jpg", "/img/detail205_6.jpg",
+      "/img/detail205_7.jpg"
+    ]
+  },
+  {
+    "id": 206,
+    "title": "국립박물관 굿즈 포도 동자 무늬 꽃잎 손잡이 잔 2P",
+    "price": "30,000",
+    "oldPrice": "",
+    "img": "/img/md6.jpg",
+    "badge": "",
+    "detailImages": [
+      "/img/detail206_1.jpg", "/img/detail206_2.jpg", "/img/detail206_3.jpg",
+      "/img/detail206_4.jpg", "/img/detail206_5.jpg", "/img/detail206_6.jpg",
+      "/img/detail206_7.jpg"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "신라의미소 소스볼 3P세트",
+    "price": "25,000",
+    "oldPrice": "",
+    "img": "/img/md7.jpg",
+    "badge": "BEST",
+    "detailImages": [
+      "/img/detail6_1.jpg", "/img/detail6_2.jpg", "/img/detail6_3.jpg",
+      "/img/detail6_4.jpg", "/img/detail6_5.jpg", "/img/detail6_6.jpg",
+      "/img/detail6_7.jpg", "/img/detail6_8.jpg"
+    ]
+  },
+  {
+    "id": 208,
+    "title": "[국가유산진흥원 굿즈] 달항아리 머그",
+    "price": "25,000",
+    "oldPrice": "",
+    "img": "/img/md8.jpg",
+    "badge": "",
+    "detailImages": [
+      "/img/detail208_1.jpg", "/img/detail208_2.jpg", "/img/detail208_3.jpg",
+      "/img/detail208_4.jpg", "/img/detail208_5.jpg", "/img/detail208_6.jpg"
+    ]
+  }
+]

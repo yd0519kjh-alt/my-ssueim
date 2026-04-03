@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom'; // 👈 1. 이동 마법 도구 수입!
-import { newData } from '../newData';
+import newData from '../newData.json';
 
 function NewSection() {
   return (

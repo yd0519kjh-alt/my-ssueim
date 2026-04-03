@@ -1,0 +1,68 @@
+{
+  "#마일드화이트": [
+    { "id": 15, "title": "마일드 화이트 사각접시 메인 디너접시 27cm (대)", "price": "19,500", "img": "/img/white1.jpg", "detailImages": ["/img/detail15_1.jpg", "/img/detail15_2.jpg", "/img/detail15_3.jpg", "/img/detail15_4.jpg", "/img/detail15_5.jpg", "/img/detail15_6.jpg"] },
+    { "id": 16, "title": "마일드 화이트 원형 접시 메인 디너접시 27cm (특대)", "price": "13,900", "img": "/img/white2.jpg", "detailImages": ["/img/detail16_1.jpg", "/img/detail16_2.jpg", "/img/detail16_3.jpg", "/img/detail16_4.jpg", "/img/detail16_5.jpg"] },
+    { "id": 17, "title": "마일드 화이트 사각 그라탕기", "price": "9,900", "img": "/img/white3.jpg", "detailImages": ["/img/detail17_1.jpg", "/img/detail17_2.jpg", "/img/detail17_3.jpg", "/img/detail17_4.jpg", "/img/detail17_5.jpg", "/img/detail17_6.jpg"] },
+    { "id": 18, "title": "마일드 화이트 계란찜기 (소) 300ml", "price": "10,900", "img": "/img/white4.jpg", "detailImages": ["/img/detail18_1.jpg", "/img/detail18_2.jpg", "/img/detail18_3.jpg", "/img/detail18_4.jpg", "/img/detail18_5.jpg", "/img/detail18_6.jpg"] },
+    { "id": 19, "title": "마일드 화이트 캔디 면기", "price": "10,900", "img": "/img/white5.jpg", "detailImages": ["/img/detail19_1.jpg", "/img/detail19_2.jpg", "/img/detail19_3.jpg", "/img/detail19_4.jpg", "/img/detail19_5.jpg", "/img/detail19_6.jpg"] },
+    { "id": 20, "title": "마일드 화이트 캔디 국그릇 대접", "price": "5,900", "img": "/img/white6.jpg", "detailImages": ["/img/detail20_1.jpg", "/img/detail20_2.jpg", "/img/detail20_3.jpg", "/img/detail20_4.jpg", "/img/detail20_5.jpg", "/img/detail20_6.jpg"] },
+    { "id": 21, "title": "마일드 화이트 사각 초장기 소스볼 종지그릇", "price": "3,900", "img": "/img/white7.jpg", "detailImages": ["/img/detail21_1.jpg", "/img/detail21_2.jpg", "/img/detail21_3.jpg", "/img/detail21_4.jpg", "/img/detail21_5.jpg", "/img/detail21_6.jpg"] },
+    { "id": 14, "title": "마일드 화이트 계란찜기 (중) 500ml", "price": "12,900", "img": "/img/white8.jpg", "detailImages": ["/img/detail14_1.jpg", "/img/detail14_2.jpg", "/img/detail14_3.jpg", "/img/detail14_4.jpg", "/img/detail14_5.jpg"] },
+    { "id": 23, "title": "마일드 화이트 타원 그라탕기(대)", "price": "16,500", "img": "/img/white9.jpg", "detailImages": ["/img/detail23_1.jpg", "/img/detail23_2.jpg", "/img/detail23_3.jpg", "/img/detail23_4.jpg", "/img/detail23_5.jpg", "/img/detail23_6.jpg"] }
+  ],
+  "#그릇세트": [
+    { "id": 24, "title": "보담 2인 그릇세트(+1인추가) 21P", "price": "90,000", "img": "/img/set1.jpg", "detailImages": ["/img/detail24_1.jpg", "/img/detail24_2.jpg", "/img/detail24_3.jpg", "/img/detail24_4.jpg", "/img/detail24_5.jpg"] },
+    { "id": 25, "title": "라옴 6인 그릇세트 홈세트 39P", "price": "178,000", "img": "/img/set2.jpg", "detailImages": ["/img/detail25_1.jpg", "/img/detail25_2.jpg", "/img/detail25_3.jpg", "/img/detail25_4.jpg", "/img/detail25_5.jpg", "/img/detail25_6.jpg"] },
+    { "id": 26, "title": "비바 4인 그릇세트 홈세트 (21P)", "price": "129,000", "img": "/img/set3.jpg", "detailImages": ["/img/detail26_1.jpg", "/img/detail26_2.jpg", "/img/detail26_3.jpg", "/img/detail26_4.jpg", "/img/detail26_5.jpg", "/img/detail26_6.jpg", "/img/detail26_7.jpg", "/img/detail26_8.jpg", "/img/detail26_9.jpg"] },
+    { "id": 27, "title": "라피네 6인 그릇세트 홈세트 36P_블루베이지", "price": "99,000", "img": "/img/set4.jpg", "detailImages": ["/img/detail27_1.jpg", "/img/detail27_2.jpg", "/img/detail27_3.jpg", "/img/detail27_4.jpg", "/img/detail27_5.jpg", "/img/detail27_6.jpg", "/img/detail27_7.jpg"] },
+    { "id": 28, "title": "보담 6인 그릇세트 식기세트 42P", "price": "159,000", "img": "/img/set5.jpg", "detailImages": ["/img/detail28_1.jpg", "/img/detail28_2.jpg", "/img/detail28_3.jpg", "/img/detail28_4.jpg", "/img/detail28_5.jpg"] },
+    { "id": 29, "title": "레트로 라인 6인 홈세트 그릇세트 40P", "price": "159,000", "img": "/img/set6.jpg", "detailImages": ["/img/detail29_1.jpg", "/img/detail29_2.jpg", "/img/detail29_3.jpg", "/img/detail29_4.jpg", "/img/detail29_5.jpg", "/img/detail29_6.jpg", "/img/detail29_7.jpg", "/img/detail29_8.jpg", "/img/detail29_9.jpg"], "gifIndex": 2 },
+    { "id": 30, "title": "클래식 레이스 4인 그릇세트 홈세트 25P", "price": "99,000", "img": "/img/set7.jpg", "detailImages": ["/img/detail30_1.jpg", "/img/detail30_2.jpg", "/img/detail30_3.jpg", "/img/detail30_4.jpg", "/img/detail30_5.jpg"] },
+    { "id": 31, "title": "블랑 웨이브 2인 그릇세트 홈세트 12P", "price": "99,000", "img": "/img/set8.jpg", "detailImages": ["/img/detail31_1.jpg", "/img/detail31_2.jpg", "/img/detail31_3.jpg", "/img/detail31_4.jpg", "/img/detail31_5.jpg", "/img/detail31_6.jpg", "/img/detail31_7.jpg", "/img/detail31_8.jpg", "/img/detail31_9.jpg"] },
+    { "id": 7, "title": "블랑 4인 그릇세트 홈세트 27P", "price": "199,000", "img": "/img/set9.jpg", "detailImages": ["/img/detail7_1.jpg", "/img/detail7_2.jpg", "/img/detail7_3.jpg", "/img/detail7_4.jpg", "/img/detail7_5.jpg", "/img/detail7_6.jpg", "/img/detail7_7.jpg", "/img/detail7_8.jpg", "/img/detail7_9.jpg", "/img/detail7_10.jpg", "/img/detail7_11.jpg"] }
+  ],
+  "#선물(Gift)": [
+    { "id": 2, "title": "[국가유산진흥원 굿즈] 선비의 멋 주안상 세트(4p)", "price": "50,000", "img": "/img/gift1.jpg", "detailImages": ["/img/detail2_1.jpg", "/img/detail2_2.jpg", "/img/detail2_3.jpg", "/img/detail2_4.jpg", "/img/detail2_5.jpg", "/img/detail2_6.jpg", "/img/detail2_7.jpg", "/img/detail2_8.jpg", "/img/detail2_9.jpg", "/img/detail2_10.jpg"] },
+    { "id": 10, "title": "윈터 홀리데이세트 10p", "price": "50,000", "img": "/img/gift2.jpg", "detailImages": ["/img/detail10_1.jpg", "/img/detail10_2.jpg", "/img/detail10_3.jpg", "/img/detail10_4.jpg", "/img/detail10_5.jpg", "/img/detail10_6.jpg", "/img/detail10_7.jpg", "/img/detail10_8.jpg", "/img/detail10_9.jpg", "/img/detail10_10.jpg"] },
+    { "id": 12, "title": "국립박물관 굿즈 신라의 미소 소스볼 세트", "price": "43,000", "img": "/img/gift3.jpg", "detailImages": ["/img/detail12_1.jpg", "/img/detail12_2.jpg", "/img/detail12_3.jpg", "/img/detail12_4.jpg", "/img/detail12_5.jpg"] },
+    { "id": 36, "title": "링 핸들 머그 M (3color)", "price": "7,900", "img": "/img/gift4.jpg", "detailImages": ["/img/detail36_1.jpg", "/img/detail36_2.jpg", "/img/detail36_3.jpg", "/img/detail36_4.jpg", "/img/detail36_5.jpg"] },
+    { "id": 37, "title": "튜브 핸들 머그 (3color)", "price": "17,900", "img": "/img/gift5.jpg", "detailImages": ["/img/detail37_1.jpg", "/img/detail37_2.jpg", "/img/detail37_3.jpg", "/img/detail37_4.jpg", "/img/detail37_5.jpg"] },
+    { "id": 38, "title": "링 핸들 머그 L (3color)", "price": "8,900", "img": "/img/gift6.jpg", "detailImages": ["/img/detail38_1.jpg", "/img/detail38_2.jpg", "/img/detail38_3.jpg", "/img/detail38_4.jpg", "/img/detail38_5.jpg"] },
+    { "id": 39, "title": "하트 머들러 (4color)", "price": "4,900", "img": "/img/gift7.jpg", "detailImages": ["/img/detail39_1.jpg", "/img/detail39_2.jpg", "/img/detail39_3.jpg", "/img/detail39_4.jpg", "/img/detail39_5.jpg"] },
+    { "id": 40, "title": "스태킹 이중 내열 글라스 M 350ml", "price": "11,900", "img": "/img/gift8.jpg", "detailImages": ["/img/detail40_1.jpg", "/img/detail40_2.jpg", "/img/detail40_3.jpg", "/img/detail40_4.jpg", "/img/detail40_5.jpg"] },
+    { "id": 9, "title": "윈터 스몰디쉬 4P 세트", "price": "25,900", "img": "/img/gift9.jpg", "detailImages": ["/img/detail9_1.jpg", "/img/detail9_2.jpg", "/img/detail9_3.jpg", "/img/detail9_4.jpg", "/img/detail9_5.jpg", "/img/detail9_6.jpg", "/img/detail9_7.jpg", "/img/detail9_8.jpg", "/img/detail9_9.jpg", "/img/detail9_10.jpg"] }
+  ],
+  "#유리&머그컵": [
+    { "id": 42, "title": "스마일 맥주잔 3P", "price": "31,900", "img": "/img/cup1.jpg", "detailImages": ["/img/detail42_1.jpg", "/img/detail42_2.jpg", "/img/detail42_3.jpg", "/img/detail42_4.jpg", "/img/detail42_5.jpg"] },
+    { "id": 43, "title": "스마일 라운드 맥주잔 2P", "price": "22,900", "img": "/img/cup2.jpg", "detailImages": ["/img/detail43_1.jpg", "/img/detail43_2.jpg", "/img/detail43_3.jpg", "/img/detail43_4.jpg", "/img/detail43_5.jpg"] },
+    { "id": 44, "title": "그라데이션 고블렛 2P", "price": "31,900", "img": "/img/cup3.jpg", "detailImages": ["/img/detail44_1.jpg", "/img/detail44_2.jpg", "/img/detail44_3.jpg", "/img/detail44_4.jpg", "/img/detail44_5.jpg"] },
+    { "id": 45, "title": "스태킹 이중 내열 글라스 유리컵 L 450ml", "price": "14,900", "img": "/img/cup4.jpg", "detailImages": ["/img/detail45_1.jpg", "/img/detail45_2.jpg", "/img/detail45_3.jpg", "/img/detail45_4.jpg", "/img/detail45_5.jpg"] },
+    { "id": 46, "title": "스태킹 이중 내열 글라스 유리컵 S 250ml", "price": "9,900", "img": "/img/cup5.jpg", "detailImages": ["/img/detail46_1.jpg", "/img/detail46_2.jpg", "/img/detail46_3.jpg", "/img/detail46_4.jpg", "/img/detail46_5.jpg"] },
+    { "id": 47, "title": "위스키 언더락잔 320ml", "price": "11,900", "img": "/img/cup6.jpg", "detailImages": ["/img/detail47_1.jpg", "/img/detail47_2.jpg", "/img/detail47_3.jpg", "/img/detail47_4.jpg", "/img/detail47_5.jpg"] },
+    { "id": 48, "title": "위스키 글라스잔 200ml", "price": "11,900", "img": "/img/cup7.jpg", "detailImages": ["/img/detail48_1.jpg", "/img/detail48_2.jpg", "/img/detail48_3.jpg", "/img/detail48_4.jpg", "/img/detail48_5.jpg"] },
+    { "id": 49, "title": "위스키 고블렛잔 210ml", "price": "16,900", "img": "/img/cup8.jpg", "detailImages": ["/img/detail49_1.jpg", "/img/detail49_2.jpg", "/img/detail49_3.jpg", "/img/detail49_4.jpg", "/img/detail49_5.jpg"] },
+    { "id": 50, "title": "링 핸들 머그 M", "price": "7,900", "img": "/img/cup9.jpg", "detailImages": ["/img/detail50_1.jpg", "/img/detail50_2.jpg", "/img/detail50_3.jpg", "/img/detail50_4.jpg", "/img/detail50_5.jpg"] }
+  ],
+  "#블랑": [
+    { "id": 200, "title": "블랑 앞접시 찬기 4종 세트", "price": "44,900", "img": "/img/bllang1.jpg", "detailImages": ["/img/detail200_1.jpg", "/img/detail200_2.jpg", "/img/detail200_3.jpg", "/img/detail200_4.jpg", "/img/detail200_5.jpg", "/img/detail200_6.jpg", "/img/detail200_7.jpg", "/img/detail200_8.jpg", "/img/detail200_9.jpg", "/img/detail200_10.jpg"] },
+    { "id": 52, "title": "블랑 웨이브 2인 그릇세트 홈세트 12P", "price": "99,000", "img": "/img/bllang2.jpg", "detailImages": ["/img/detail52_1.jpg", "/img/detail52_2.jpg", "/img/detail52_3.jpg", "/img/detail52_4.jpg", "/img/detail52_5.jpg"] },
+    { "id": 53, "title": "블랑 4인 그릇세트 홈세트 27P", "price": "199,000", "img": "/img/bllang3.jpg", "detailImages": ["/img/detail53_1.jpg", "/img/detail53_2.jpg", "/img/detail53_3.jpg", "/img/detail53_4.jpg", "/img/detail53_5.jpg"] },
+    { "id": 54, "title": "블랑 플리츠 머그컵", "price": "9,000", "img": "/img/bllang4.jpg", "detailImages": ["/img/detail54_1.jpg", "/img/detail54_2.jpg", "/img/detail54_3.jpg", "/img/detail54_4.jpg", "/img/detail54_5.jpg"] },
+    { "id": 55, "title": "블랑 웨이브 머그컵", "price": "9,900", "img": "/img/bllang5.jpg", "detailImages": ["/img/detail55_1.jpg", "/img/detail55_2.jpg", "/img/detail55_3.jpg", "/img/detail55_4.jpg", "/img/detail55_5.jpg"] },
+    { "id": 56, "title": "블랑 플뢰르 접시 소", "price": "15,000", "img": "/img/bllang6.jpg", "detailImages": ["/img/detail56_1.jpg", "/img/detail56_2.jpg", "/img/detail56_3.jpg", "/img/detail56_4.jpg", "/img/detail56_5.jpg"] },
+    { "id": 57, "title": "블랑 플리츠 접시 소", "price": "15,000", "img": "/img/bllang7.jpg", "detailImages": ["/img/detail57_1.jpg", "/img/detail57_2.jpg", "/img/detail57_3.jpg", "/img/detail57_4.jpg", "/img/detail57_5.jpg"] },
+    { "id": 58, "title": "블랑 웨이브 접시 소", "price": "15,000", "img": "/img/bllang8.jpg", "detailImages": ["/img/detail58_1.jpg", "/img/detail58_2.jpg", "/img/detail58_3.jpg", "/img/detail58_4.jpg", "/img/detail58_5.jpg"] },
+    { "id": 59, "title": "블랑 라비에 접시 소", "price": "15,000", "img": "/img/bllang9.jpg", "detailImages": ["/img/detail59_1.jpg", "/img/detail59_2.jpg", "/img/detail59_3.jpg", "/img/detail59_4.jpg", "/img/detail59_5.jpg"] }
+  ],
+  "#오딧세이": [
+    { "id": 60, "title": "오딧세이 패딩 런치백 도시락가방 보냉백", "price": "28,710", "img": "/img/ods1.jpg", "detailImages": ["/img/detail60_1.jpg", "/img/detail60_2.jpg", "/img/detail60_3.jpg", "/img/detail60_4.jpg", "/img/detail60_5.jpg"] },
+    { "id": 61, "title": "오딧세이 런치백 (2 color)", "price": "27,900", "img": "/img/ods2.jpg", "detailImages": ["/img/detail61_1.jpg", "/img/detail61_2.jpg", "/img/detail61_3.jpg", "/img/detail61_4.jpg", "/img/detail61_5.jpg"] },
+    { "id": 62, "title": "오딧세이 투고 텀블러 420ml (5color)", "price": "21,900", "img": "/img/ods3.jpg", "detailImages": ["/img/detail62_1.jpg", "/img/detail62_2.jpg", "/img/detail62_3.jpg", "/img/detail62_4.jpg", "/img/detail62_5.jpg"] },
+    { "id": 63, "title": "오딧세이 런치박스 S (칸막이)", "price": "16,900", "img": "/img/ods4.jpg", "detailImages": ["/img/detail63_1.jpg", "/img/detail63_2.jpg", "/img/detail63_3.jpg", "/img/detail63_4.jpg", "/img/detail63_5.jpg"] },
+    { "id": 64, "title": "오딧세이 런치박스 M (2 color)", "price": "16,900", "img": "/img/ods5.jpg", "detailImages": ["/img/detail64_1.jpg", "/img/detail64_2.jpg", "/img/detail64_3.jpg", "/img/detail64_4.jpg", "/img/detail64_5.jpg"] },
+    { "id": 65, "title": "오딧세이 런치박스 세트(S+M)", "price": "29,900", "img": "/img/ods6.jpg", "detailImages": ["/img/detail65_1.jpg", "/img/detail65_2.jpg", "/img/detail65_3.jpg", "/img/detail65_4.jpg", "/img/detail65_5.jpg"] },
+    { "id": 66, "title": "오딧세이 런치박스 풀세트", "price": "53,910", "img": "/img/ods7.jpg", "detailImages": ["/img/detail66_1.jpg", "/img/detail66_2.jpg", "/img/detail66_3.jpg", "/img/detail66_4.jpg", "/img/detail66_5.jpg"] },
+    { "id": 67, "title": "오딧세이 패딩 런치박스 풀세트", "price": "56,610", "img": "/img/ods8.jpg", "detailImages": ["/img/detail67_1.jpg", "/img/detail67_2.jpg", "/img/detail67_3.jpg", "/img/detail67_4.jpg", "/img/detail67_5.jpg"] },
+    { "id": 68, "title": "오딧세이 휴대용 도시락 수저포크 세트", "price": "9,900", "img": "/img/ods9.jpg", "detailImages": ["/img/detail68_1.jpg", "/img/detail68_2.jpg", "/img/detail68_3.jpg", "/img/detail68_4.jpg", "/img/detail68_5.jpg"] }
+  ]
+}

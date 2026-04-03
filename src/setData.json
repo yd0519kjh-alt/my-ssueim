@@ -1,0 +1,101 @@
+[
+  {
+    "id": 26,
+    "title": "비바 4인 그릇세트 홈세트 (21P) (4color)",
+    "price": "129,000",
+    "oldPrice": "200,000",
+    "img": "/img/a1.jpg",
+    "isBest": true,
+    "detailImages": [
+      "/img/detail26_1.jpg", "/img/detail26_2.jpg", "/img/detail26_3.jpg",
+      "/img/detail26_4.jpg", "/img/detail26_5.jpg", "/img/detail26_6.jpg",
+      "/img/detail26_7.jpg", "/img/detail26_8.jpg", "/img/detail26_9.jpg"
+    ]
+  },
+  {
+    "id": 25,
+    "title": "라옴 6인 그릇세트 홈세트 39P",
+    "price": "176,000",
+    "oldPrice": "",
+    "img": "/img/a2.jpg",
+    "isBest": false,
+    "detailImages": [
+      "/img/detail25_1.jpg", "/img/detail25_2.jpg", "/img/detail25_3.jpg",
+      "/img/detail25_4.jpg", "/img/detail25_5.jpg", "/img/detail25_6.jpg"
+    ]
+  },
+  {
+    "id": 24,
+    "title": "보담 2인 그릇세트(+1인추가) 21P 도자기그릇 홈세트 식기세트",
+    "price": "90,000",
+    "oldPrice": "",
+    "img": "/img/a3.jpg",
+    "isBest": false,
+    "detailImages": [
+      "/img/detail24_1.jpg", "/img/detail24_2.jpg", "/img/detail24_3.jpg",
+      "/img/detail24_4.jpg", "/img/detail24_5.jpg", "/img/detail24_6.jpg"
+    ]
+  },
+  {
+    "id": 30,
+    "title": "클래식 레이스 4인 그릇세트 홈세트 25P",
+    "price": "99,000",
+    "oldPrice": "",
+    "img": "/img/a4.jpg",
+    "isBest": true,
+    "detailImages": [
+      "/img/detail30_1.jpg", "/img/detail30_2.jpg", "/img/detail30_3.jpg",
+      "/img/detail30_4.jpg", "/img/detail30_5.jpg", "/img/detail30_6.jpg"
+    ]
+  },
+  {
+    "id": 7,
+    "title": "블랑 4인 그릇세트 홈세트 27P",
+    "price": "199,000",
+    "oldPrice": "",
+    "img": "/img/a5.jpg",
+    "isBest": true,
+    "detailImages": [
+      "/img/detail7_1.jpg", "/img/detail7_2.jpg", "/img/detail7_3.jpg",
+      "/img/detail7_4.jpg", "/img/detail7_5.jpg", "/img/detail7_6.jpg",
+      "/img/detail7_7.jpg", "/img/detail7_8.jpg", "/img/detail7_9.jpg"
+    ]
+  },
+  {
+    "id": 27,
+    "title": "라피네 6인 그릇세트 홈세트 36P_블루베이지",
+    "price": "99,000",
+    "oldPrice": "",
+    "img": "/img/a6.jpg",
+    "isBest": false,
+    "detailImages": [
+      "/img/detail27_1.jpg", "/img/detail27_2.jpg", "/img/detail27_3.jpg",
+      "/img/detail27_4.jpg", "/img/detail27_5.jpg", "/img/detail27_6.jpg"
+    ]
+  },
+  {
+    "id": 230,
+    "title": "레트로 라인 2인 그릇세트 11P 딥블루",
+    "price": "54,900",
+    "oldPrice": "90,000",
+    "img": "/img/a7.jpg",
+    "isBest": false,
+    "detailImages": [
+      "/img/detail230_1.jpg", "/img/detail230_2.jpg", "/img/detail230_3.jpg",
+      "/img/detail230_4.jpg"
+    ]
+  },
+  {
+    "id": 29,
+    "title": "레트로 라인 6인 홈세트 그릇세트 40P",
+    "price": "159,000",
+    "oldPrice": "200,000",
+    "img": "/img/a8.jpg",
+    "isBest": true,
+    "detailImages": [
+      "/img/detail29_1.jpg", "/img/detail29_2.jpg", "/img/detail29_3.jpg",
+      "/img/detail29_4.jpg", "/img/detail29_5.jpg", "/img/detail29_6.jpg",
+      "/img/detail29_7.jpg", "/img/detail29_8.jpg", "/img/detail29_9.jpg"
+    ]
+  }
+]

@@ -1,6 +1,6 @@
 import React from 'react'; // 👈 맨 앞에 '\'가 없어야 합니다!
 import { Link } from 'react-router-dom'; 
-import { setData } from '../setData';
+import setData from '../setData.json';
 
 function SetSection() {
   return (

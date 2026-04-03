@@ -1,0 +1,57 @@
+[
+  {
+    "id": 200,
+    "brand": "쓰임",
+    "title": "블랑 앞접시 찬기 4종 세트",
+    "price": "44,900",
+    "oldPrice": "60,000",
+    "img": "/img/new1.jpg",
+    "isNew": false,
+    "detailImages": [
+      "/img/detail200_1.jpg", "/img/detail200_2.jpg", "/img/detail200_3.jpg",
+      "/img/detail200_4.jpg", "/img/detail200_5.jpg", "/img/detail200_6.jpg",
+      "/img/detail200_7.jpg", "/img/detail200_8.jpg", "/img/detail200_9.jpg"
+    ]
+  },
+  {
+    "id": 201,
+    "brand": "쓰임",
+    "title": "화반 앞접시 꽃접시 4종 세트",
+    "price": "32,900",
+    "oldPrice": "40,000",
+    "img": "/img/new2.jpg",
+    "isNew": true,
+    "detailImages": [
+      "/img/detail201_1.jpg", "/img/detail201_2.jpg", "/img/detail201_3.jpg",
+      "/img/detail201_4.jpg", "/img/detail201_5.jpg", "/img/detail201_6.jpg"
+    ]
+  },
+  {
+    "id": 203,
+    "brand": "쓰임",
+    "title": "오딧세이 패딩 런치박스 풀세트",
+    "price": "62,900",
+    "oldPrice": "125,000",
+    "img": "/img/new3.jpg",
+    "isNew": false,
+    "detailImages": [
+      "/img/detail203_1.jpg", "/img/detail203_2.jpg", "/img/detail203_3.jpg",
+      "/img/detail203_4.jpg", "/img/detail203_5.jpg", "/img/detail203_6.jpg",
+      "/img/detail203_7.jpg", "/img/detail203_8.jpg", "/img/detail203_9.jpg",
+      "/img/detail203_10.jpg"
+    ]
+  },
+  {
+    "id": 204,
+    "brand": "쓰임",
+    "title": "오딧세이 패딩 런치백 도시락가방 보냉백",
+    "price": "31,900",
+    "oldPrice": "60,000",
+    "img": "/img/new4.jpg",
+    "isNew": false,
+    "detailImages": [
+      "/img/detail204_1.jpg", "/img/detail204_2.jpg", "/img/detail204_3.jpg",
+      "/img/detail204_4.jpg", "/img/detail204_5.jpg"
+    ]
+  }
+]

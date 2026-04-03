@@ -1,46 +1,25 @@
 import React from 'react';
 import { Carousel } from 'react-bootstrap';
+// 🚨 JSON 데이터를 불러옵니다.
+import banners from '../banners.json'; 
 
 function MainBanner() {
   return (
     <div className="main-slider">
-      {/* indicators={true}: 하단에 현재 몇 번째 사진인지 점으로 표시해줍니다 */}
+      {/* indicators={true}: 하단 점 표시 */}
       <Carousel fade interval={3000} indicators={true}>
         
-        {/* 1번 배너 */}
-        <Carousel.Item>
-          <img className="d-block w-100 banner-img" src="/img/banner1.jpg" alt="배너 1" />
-        </Carousel.Item>
-
-        {/* 2번 배너 */}
-        <Carousel.Item>
-          <img className="d-block w-100 banner-img" src="/img/banner2.jpg" alt="배너 2" />
-        </Carousel.Item>
-
-        {/* 3번 배너 */}
-        <Carousel.Item>
-          <img className="d-block w-100 banner-img" src="/img/banner3.jpg" alt="배너 3" />
-        </Carousel.Item>
-
-        {/* 4번 배너 */}
-        <Carousel.Item>
-          <img className="d-block w-100 banner-img" src="/img/banner4.jpg" alt="배너 4" />
-        </Carousel.Item>
-
-        {/* 5번 배너 */}
-        <Carousel.Item>
-          <img className="d-block w-100 banner-img" src="/img/banner5.jpg" alt="배너 5" />
-        </Carousel.Item>
-
-        {/* 6번 배너 */}
-        <Carousel.Item>
-          <img className="d-block w-100 banner-img" src="/img/banner6.jpg" alt="배너 6" />
-        </Carousel.Item>
-
-        {/* 7번 배너 */}
-        <Carousel.Item>
-          <img className="d-block w-100 banner-img" src="/img/banner7.jpg" alt="배너 7" />
-        </Carousel.Item>
+        {/* 🚨 JSON 배열을 map으로 돌려서 배너를 생성합니다. */}
+        {banners.map((banner) => (
+          <Carousel.Item key={banner.id}>
+            <img 
+              className="d-block w-100 banner-img" 
+              /* 🚨 PUBLIC_URL을 더해 깃허브 배포 경로를 완벽하게 맞춥니다. */
+              src={process.env.PUBLIC_URL + banner.img} 
+              alt={banner.alt} 
+            />
+          </Carousel.Item>
+        ))}
 
       </Carousel>
     </div>

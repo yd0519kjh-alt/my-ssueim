@@ -2,18 +2,21 @@ import React, { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { useDispatch } from 'react-redux'; 
 import { addItem } from '../store';      
-import bestData from '../data'; 
-import { keywordData } from '../keywordData'; 
-import { mdData } from '../mdData'; 
-import { setData } from '../setData'; 
-import { newData } from '../newData'; 
+
+// 🚨 모든 데이터를 JSON 파일에서 직접 가져옵니다 (중괄호 { } 제거!)
+import bestData from '../data.json'; 
+import keywordData from '../keywordData.json'; 
+import mdData from '../mdData.json';
+import setData from '../setData.json'; 
+import newData from '../newData.json'; 
+
 import './ProductDetail.css';
 
 function ProductDetail() {
   const { id } = useParams(); 
   const dispatch = useDispatch(); 
 
-  // 모든 데이터를 하나로 통합
+  // 모든 데이터를 하나로 통합 (keywordData는 객체이므로 값들을 펼쳐서 합칩니다)
   const allProducts = [
     ...bestData, 
     ...Object.values(keywordData).flat(),
@@ -22,6 +25,7 @@ function ProductDetail() {
     ...newData 
   ];
 
+  // ID와 일치하는 상품 찾기
   const product = allProducts.find((item) => item.id === parseInt(id));
   const [quantity, setQuantity] = useState(1);
 
@@ -31,18 +35,19 @@ function ProductDetail() {
   if (!product) return <div className="error-box" style={{padding:'100px', textAlign:'center'}}>상품을 찾을 수 없습니다! 🪨💦</div>
 
   // 가격 계산 로직 (콤마 제거 후 숫자 변환)
-  const priceNum = parseInt(product.price.replace(/,/g, ''));
+  const priceNum = parseInt(product.price.toString().replace(/,/g, ''));
   const totalPrice = (priceNum * quantity).toLocaleString();
-
-  // 상세 이미지 리스트 생성 (기본값 6장)
-  const detailImages = Array.from({ length: product.detailCount || 6 }, (_, i) => i + 1);
 
   return (
     <div className="detail-container">
       {/* 🟢 상단: 상품 정보 섹션 */}
       <div className="detail-main">
         <div className="detail-left">
-          <img src={product.img} alt={product.title} className="main-detail-img" />
+          <img 
+            src={process.env.PUBLIC_URL + product.img} 
+            alt={product.title} 
+            className="main-detail-img" 
+          />
         </div>
 
         <div className="detail-right">
@@ -94,15 +99,16 @@ function ProductDetail() {
           <button>Q&A</button>
         </div>
 
-        {/* 상세 이미지 리스트 */}
-        <div className="detail-img-list">
-          {detailImages.map((num) => (
+        {/* 🚨 JSON 배열에 적힌 경로대로 상세 이미지를 출력 */}
+        <div className="detail-img-list" style={{ display: 'flex', flexDirection: 'column' }}>
+          {product.detailImages && product.detailImages.map((path, index) => (
             <img 
-              key={num} 
-              src={`/img/detail${id}_${num}.jpg`} 
-              alt="상세" 
+              key={index} 
+              src={process.env.PUBLIC_URL + path} 
+              alt={`상세정보 ${index + 1}`} 
               className="full-detail-img" 
-              onError={(e) => e.target.style.display = 'none'} 
+              style={{ width: '100%', display: 'block' }}
+              onError={(e) => { e.target.style.display = 'none'; }} 
             />
           ))}
         </div>
@@ -124,7 +130,7 @@ function ProductDetail() {
                   </div>
                   <div className="rev-body">
                     <p>{rev.content}</p>
-                    {rev.img && <img src={rev.img} alt="리뷰" className="rev-img" />}
+                    {rev.img && <img src={process.env.PUBLIC_URL + rev.img} alt="리뷰" className="rev-img" />}
                   </div>
                 </div>
               ))
@@ -134,7 +140,7 @@ function ProductDetail() {
           </div>
         </div>
 
-        {/* 🚨 관련상품 섹션 (6단 그리드 레이아웃 적용) */}
+        {/* 관련상품 섹션 */}
         {product.related && (
           <div className="related-section">
             <h4 className="related-title">관련상품</h4>
@@ -143,7 +149,7 @@ function ProductDetail() {
                 <div key={rel.id} className="related-item">
                   <Link to={`/detail/${rel.id}`} onClick={() => window.scrollTo(0, 0)}>
                     <div className="related-img-box">
-                      <img src={rel.img} alt={rel.title} />
+                      <img src={process.env.PUBLIC_URL + rel.img} alt={rel.title} />
                     </div>
                     <div className="related-info">
                       <p className="rel-name">{rel.title}</p>

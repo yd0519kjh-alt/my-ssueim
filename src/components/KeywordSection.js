@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom'; // 👈 1. 내비게이션 도구 수입!
-import { keywordData } from '../keywordData';
-import './KeywordSection.css'; // 👈 이 코드가 있어야 CSS를 읽어옵니다!
+import { Link } from 'react-router-dom';
+// 🚨 [수정 1] 중괄호 { } 제거하고 .json 확장자를 명시합니다!
+import keywordData from '../keywordData.json'; 
+import './KeywordSection.css';
 
 function KeywordSection() {
+  // JSON 데이터의 첫 번째 키를 기본값으로 설정하거나 기존처럼 직접 입력합니다.
   const [activeTag, setActiveTag] = useState("#마일드화이트");
   const tags = Object.keys(keywordData);
 
@@ -30,12 +32,14 @@ function KeywordSection() {
         {/* 2. 오른쪽 상품 그리드 */}
         <div className="keyword-content">
           <div className="keyword-grid">
-            {keywordData[activeTag].map((item) => (
+            {/* 선택된 태그에 해당하는 상품 리스트 출력 */}
+            {keywordData[activeTag] && keywordData[activeTag].map((item) => (
               <div className="keyword-card" key={item.id}>
-                {/* 🚨 2. 카드 전체를 Link로 감쌉니다. 주소는 /detail/번호! */}
+                
                 <Link to={`/detail/${item.id}`} onClick={() => window.scrollTo(0, 0)} className="kw-link">
                   <div className="keyword-img-box">
-                    <img src={item.img} alt={item.title} />
+                    {/* 🚨 [수정 2] 이미지 경로에 PUBLIC_URL을 더해 깃허브 배포 시 엑박을 방지합니다! */}
+                    <img src={process.env.PUBLIC_URL + item.img} alt={item.title} />
                     <div className="cart-icon-small">🛒</div>
                   </div>
                   <div className="keyword-info">
@@ -56,3 +60,4 @@ function KeywordSection() {
 }
 
 export default KeywordSection;
+
