@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/my-ssueim/static/css/main.33f8be0c.css",
+    "main.js": "/my-ssueim/static/js/main.09ba3c80.js",
+    "static/js/453.a4e017f7.chunk.js": "/my-ssueim/static/js/453.a4e017f7.chunk.js",
+    "index.html": "/my-ssueim/index.html",
+    "main.33f8be0c.css.map": "/my-ssueim/static/css/main.33f8be0c.css.map",
+    "main.09ba3c80.js.map": "/my-ssueim/static/js/main.09ba3c80.js.map",
+    "453.a4e017f7.chunk.js.map": "/my-ssueim/static/js/453.a4e017f7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.33f8be0c.css",
+    "static/js/main.09ba3c80.js"
+  ]
+}
