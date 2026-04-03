@@ -1,6 +1,7 @@
 {
   "name": "my-ssueim",
   "version": "0.1.0",
+  "homepage": "https://yd0519kjh-alt.github.io/my-ssueim/",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^2.11.2",
@@ -22,7 +23,12 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   },
   "eslintConfig": {
     "extends": [
@@ -42,6 +48,4 @@
       "last 1 safari version"
     ]
   }
-
-  
 }
