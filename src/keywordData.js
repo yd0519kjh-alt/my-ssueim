@@ -24,7 +24,7 @@ export const keywordData = {
   "#선물(Gift)": [
     { id: 2, title: "[국가유산진흥원 굿즈] 선비의 멋 주안상 세트(4p)", price: "50,000", img: "/img/gift1.jpg", detailCount: 10 },
     { id: 10, title: "윈터 홀리데이세트 10p (스노우맨2인 6p+스몰디쉬4p)", price: "50,000", img: "/img/gift2.jpg", detailCount: 10 },
-    { id: 35, title: "국립박물관 굿즈 신라의 미소 소스볼 3p + 수막새 수저받침 3p 세트", price: "43,000", img: "/img/gift3.jpg", detailCount: 5 },
+    { id: 12, title: "국립박물관 굿즈 신라의 미소 소스볼 3p + 수막새 수저받침 3p 세트", price: "43,000", img: "/img/gift3.jpg", detailCount: 5 },
     { id: 36, title: "링 핸들 머그 M (3color)", price: "7,900", img: "/img/gift4.jpg", detailCount: 5 },
     { id: 37, title: "튜브 핸들 머그 (3color)", price: "17,900", img: "/img/gift5.jpg", detailCount: 5 },
     { id: 38, title: "링 핸들 머그 L (3color)", price: "8,900", img: "/img/gift6.jpg", detailCount: 5 },

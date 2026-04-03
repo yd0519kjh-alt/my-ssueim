@@ -25,6 +25,11 @@ import NewSection from './components/NewSection';
 import ProductDetail from './pages/ProductDetail'; 
 import Cart from './pages/Cart';
 import SearchResult from './pages/SearchResult'; // 👈 검색 페이지 수입 완료!
+import Board from './pages/Board';
+import BoardWrite from './pages/BoardWrite';
+import Login from './pages/Login';
+
+
 
 function App() {
   return (
@@ -61,8 +66,17 @@ function App() {
         {/* 🏺 4. 상세 페이지 (/detail/:id) */}
         <Route path="/detail/:id" element={<ProductDetail />} />
 
+        <Route path="/board" element={ <Board/> } />
+
+        <Route path="/board/write" element={<BoardWrite />} />
+
+<Route path="/login" element={<Login />} />
+
         {/* 404 에러 페이지 처리 (옵션) */}
         <Route path="*" element={<div style={{padding: '100px'}}>잘못된 경로입니다! 🪨💦</div>} />
+     
+     <Route path="/board" element={ <Board/> } />
+
       </Routes>
 
       {/* 🟢 고정 영역: 푸터 */}

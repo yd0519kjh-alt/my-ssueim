@@ -1,0 +1,81 @@
+/* src/pages/BoardWrite.css */
+.write-container {
+  max-width: 800px;
+  margin: 80px auto;
+  padding: 0 20px;
+  text-align: left;
+}
+
+.write-header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.write-header h2 {
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.write-header p { color: #888; font-size: 14px; }
+
+.write-form {
+  border-top: 2px solid #333;
+  padding-top: 30px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 25px;
+}
+
+.input-group label {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.input-group input, .input-group textarea {
+  padding: 15px;
+  border: 1px solid #e5e5e5;
+  border-radius: 2px;
+  font-size: 15px;
+  outline: none;
+}
+
+.input-group input:focus, .input-group textarea:focus {
+  border-color: #333;
+}
+
+.input-group textarea {
+  min-height: 350px;
+  resize: vertical;
+}
+
+.write-footer {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 50px;
+}
+
+.btn-cancel {
+  padding: 15px 50px;
+  background: #fff;
+  border: 1px solid #ddd;
+  color: #666;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn-submit {
+  padding: 15px 50px;
+  background: #000;
+  border: 1px solid #000;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn-submit:hover { background: #333; }

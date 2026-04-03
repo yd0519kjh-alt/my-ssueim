@@ -66,7 +66,7 @@ const bestData = [
     oldPrice: "", 
     img: "/img/best5.jpg", 
     tags: [],
-    detailCount: 5,
+    detailCount: 6,
     reviews: [
       { id: 1, user: "전**", rating: 5, date: "2026.02.28", content: "막걸리 마실 맛 납니다. 잔이 정말 예뻐요.", img: "" }
     ]

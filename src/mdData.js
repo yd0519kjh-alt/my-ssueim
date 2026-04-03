@@ -24,7 +24,7 @@ export const mdData = [
     img: "/img/md6.jpg", badge: "" ,detailCount: 7
   },
   { 
-    id: 207, title: "신라의미소 소스볼 3P세트", price: "25,000", oldPrice: "", 
+    id: 6, title: "신라의미소 소스볼 3P세트", price: "25,000", oldPrice: "", 
     img: "/img/md7.jpg", badge: "BEST" ,detailCount: 8
   },
   { 
