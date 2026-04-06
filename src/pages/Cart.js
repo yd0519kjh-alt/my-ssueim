@@ -4,7 +4,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { addCount, minusCount, deleteItem } from '../store';
 
 function Cart() {
-  let state = useSelector((state) => state.cart); // 창고 데이터 가져오기
+  let state = useSelector((state) => state.cart);
   let dispatch = useDispatch();
 
   return (
@@ -23,7 +23,13 @@ function Cart() {
           {state.map((item) => (
             <tr key={item.id}>
               <td style={{textAlign: 'left'}}>
-                <img src={item.img} width="50px" style={{marginRight: '15px'}} />
+                {/* 🚨 가공 완료된 이미지 경로! */}
+                <img 
+                  src={process.env.PUBLIC_URL + item.img} 
+                  width="50px" 
+                  style={{marginRight: '15px'}} 
+                  alt="상품"
+                />
                 {item.title}
               </td>
               <td>{item.price}원</td>
