@@ -21,5 +21,8 @@ Html, Css, Java script 기반으로 구현된 동적 웹 프로젝트
 • ETC : GIT, GITHUB
 
 # PPT 기능구현
+<img width="1440" height="1080" alt="image" src="https://github.com/user-attachments/assets/e4d5544b-7966-4404-b7be-0dff942cabc0" />
+
+
 
 
