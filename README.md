@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# javascript 개인 프로젝트 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
