@@ -20,5 +20,6 @@ Html, Css, Java script 기반으로 구현된 동적 웹 프로젝트
 
 • ETC : GIT, GITHUB
 
-### `npm run eject`
+# PPT 기능구현
+
 
