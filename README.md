@@ -2,11 +2,7 @@
 
 Html, Css, Java script 기반으로 구현된 동적 웹 프로젝트
 
-INDEX
-
-In the project directory, you can run:
-
-### `npm start`
+### INDEX
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
