@@ -1,8 +1,8 @@
-# javascript 개인 프로젝트 
+# 📚javascript 개인 프로젝트 (쓰임)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Html, Css, Java script 기반으로 구현된 동적 웹 프로젝트
 
-## Available Scripts
+INDEX
 
 In the project directory, you can run:
 
