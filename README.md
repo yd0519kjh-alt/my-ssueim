@@ -12,8 +12,11 @@ Html, Css, Java script 기반으로 구현된 동적 웹 프로젝트
 
 # 제작도구 
 • 프로그래밍 언어 : CSS,JAVASCRIPT,HTML
+
 • 프레임워크 및 라이브러리 : AXIOS,JQUERY
+
 • 툴 : VisualStudioCode, Figma
+
 • ETC : GIT, GITHUB
 
 ### `npm run eject`
