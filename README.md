@@ -10,15 +10,12 @@ Html, Css, Java script 기반으로 구현된 동적 웹 프로젝트
 •프로젝트 목표 : Html, Css, Java script 기반 웹 애플리케이션
 •개발 기간 : 26/03/18 ~ 26/03/25
 
-# `npm run build`
+# 제작도구 
+• 프로그래밍 언어 : CSS,JAVASCRIPT,HTML
+• 프레임워크 및 라이브러리 : <img width="253" height="262" alt="image" src="https://github.com/user-attachments/assets/9e447fb7-07b7-44b9-bca1-ae4ec13adb2d" />,<img width="281" height="282" alt="image" src="https://github.com/user-attachments/assets/049104d9-e08d-4651-9062-8012dc116aec" />,<img width="347" height="346" alt="image" src="https://github.com/user-attachments/assets/504f3ab7-84c7-49f6-ad38-e9fbae7ed12a" />
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+• 기술
 
 ### `npm run eject`
 
