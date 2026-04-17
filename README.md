@@ -22,7 +22,6 @@ Html, Css, Java script 기반으로 구현된 동적 웹 프로젝트
 
 # PPT 기능구현
 <img width="1280" height="960" alt="슬라이드1" src="https://github.com/user-attachments/assets/daf0fa6d-7610-4fe4-adc1-f5a51173a134" />
-<img width="1280" height="960" alt="슬라이드2" src="https://github.com/user-attachments/assets/8f95f87d-5d43-421f-907d-c9527e6f181c" />
 <img width="1280" height="960" alt="슬라이드2" src="https://github.com/user-attachments/assets/5e544236-df5f-4550-abe5-3648bfc5984f" />
 <img width="1280" height="960" alt="슬라이드3" src="https://github.com/user-attachments/assets/1731c208-16b0-43eb-9f40-7a7bde4b28a5" />
 <img width="1280" height="960" alt="슬라이드4" src="https://github.com/user-attachments/assets/be8a8201-b81f-42d9-bca0-c684b4f971c0" />
