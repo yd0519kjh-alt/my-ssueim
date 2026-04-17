@@ -37,26 +37,27 @@ Html, Css, Java script 기반으로 구현된 동적 웹 프로젝트
 <img width="1280" height="960" alt="슬라이드14" src="https://github.com/user-attachments/assets/702c5f0c-46b8-4e12-851d-7b6088a3bfa3" />
 <img width="1280" height="960" alt="슬라이드15" src="https://github.com/user-attachments/assets/ad7391fc-c9b7-450d-b25d-31000d93ef8f" />
 
-###로그인
+로그인
 
 <img width="800" height="458" alt="로그인" src="https://github.com/user-attachments/assets/cb7dc8e0-852f-445a-ac58-6105e745b4e9" />
 
-###검색
+검색
 
 <img width="800" height="450" alt="검색" src="https://github.com/user-attachments/assets/26035d85-912e-486f-9806-26bb293002e0" />
 
-###게시판
+게시판
 
 <img width="800" height="458" alt="게시판" src="https://github.com/user-attachments/assets/b59677c5-e6bd-4a45-b41e-4fa2626bc43b" />
 
-###장바구니
+장바구니
 
 <img width="800" height="458" alt="장바구니" src="https://github.com/user-attachments/assets/7c5f4b0b-7ab0-4e07-80ca-dd2759aa3dd2" />
 
-###상세페이지
+상세페이지
 
 <img width="800" height="458" alt="상세페이지" src="https://github.com/user-attachments/assets/cd3f56f9-3a8a-40f8-aa91-934cdd5229a9" />
-###유튜브
+
+유튜브
 
 <img width="800" height="458" alt="유튜부" src="https://github.com/user-attachments/assets/d2fb698a-a11d-4bb8-bb56-c4528a0ead26" />
 <img width="1280" height="960" alt="슬라이드23" src="https://github.com/user-attachments/assets/7478f492-f814-46b8-9000-35c2ae159dde" />
