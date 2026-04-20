@@ -1,4 +1,4 @@
-<img width="2560" height="1440" alt="슬라이드10" src="https://github.com/user-attachments/assets/3853472f-ad72-498b-a0b8-a2fd9a06cc83" /># 📚javascript 개인 프로젝트 (쓰임)
+/># 📚javascript 개인 프로젝트 (쓰임)
 
 Html, Css, Java script 기반으로 구현된 동적 웹 프로젝트
 
