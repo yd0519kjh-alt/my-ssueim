@@ -62,7 +62,6 @@ Html, Css, Java script 기반으로 구현된 동적 웹 프로젝트
 유튜브
 
 <img width="800" height="458" alt="유튜부" src="https://github.com/user-attachments/assets/d2fb698a-a11d-4bb8-bb56-c4528a0ead26" />
-<img width="1280" height="960" alt="슬라이드23" src="https://github.com/user-attachments/assets/7478f492-f814-46b8-9000-35c2ae159dde" />
 <img width="2560" height="1440" alt="슬라이드23" src="https://github.com/user-attachments/assets/3e6ca99b-21f5-4031-a5db-7be15e769f79" />
 
 
