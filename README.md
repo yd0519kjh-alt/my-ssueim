@@ -37,7 +37,6 @@ Html, Css, Java script 기반으로 구현된 동적 웹 프로젝트
 <img width="2560" height="1440" alt="슬라이드14" src="https://github.com/user-attachments/assets/1127060d-7f88-48a6-ab65-af8b167ff89d" />
 <img width="2560" height="1440" alt="슬라이드15" src="https://github.com/user-attachments/assets/8bdc4a23-b9d7-48a7-986b-9ddd68a45258" />
 <img width="2560" height="1440" alt="슬라이드16" src="https://github.com/user-attachments/assets/59680753-d6b1-4a39-b0d8-4fd71655a5fa" />
-<img width="2560" height="1440" alt="슬라이드18" src="https://github.com/user-attachments/assets/0c79df0f-d3e3-4cfe-adf8-6375330c77f5" />
 <img width="2560" height="1440" alt="슬라이드17" src="https://github.com/user-attachments/assets/bb974b29-37b1-43bd-b3f8-03c94df103ba" />
 <img width="2560" height="1440" alt="슬라이드18" src="https://github.com/user-attachments/assets/6b0b2997-0984-46d7-99fc-2c7913a4bc77" />
 <img width="2560" height="1440" alt="슬라이드19" src="https://github.com/user-attachments/assets/d5b8ffb9-dd8c-41f0-9eaa-7482688022ea" />
