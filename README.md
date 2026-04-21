@@ -1,25 +1,26 @@
-# 📚javascript 개인 프로젝트 (쓰임)
+# 🛒 React & Redux Toolkit 기반 쇼핑몰 클론 프로젝트 (쓰임)
 
-Html, Css, Java script 기반으로 구현된 동적 웹 프로젝트
+React와 Redux Toolkit을 활용하여 사용자 중심의 쇼핑 경험과 효율적인 데이터 흐름을 구현한 이커머스 웹 애플리케이션입니다.
 
 # 🔍INDEX
-• ✨주제설정
-• 🛠제작도구 
-• 📱 화면설계
-# 개요
+• 개요
+• 제작도구
+• 핵심 기술 구현 및 로직
+• 화면 설계 및 기능 시연
+• 기술적 성장 및 해결 과정
+## 📅개요
 •프로젝트 목표 : Html, Css, Java script 기반 웹 애플리케이션
 
 •개발 기간 : 26/03/18 ~ 26/03/25
 
-# 제작도구 
-• 프로그래밍 언어 : CSS,JAVASCRIPT,HTML
-
-• 프레임워크 및 라이브러리 : AXIOS
-
-• 툴 : VisualStudioCode
-
-• ETC : GIT, GITHUB
-
+## 🛠제작도구 
+### Programming Languages & Frameworks
+### Libraries & Tools
+• State Management: Redux Toolkit
+• Data Fetching: Axios
+• Routing: React Router DOM
+• IDE: Visual Studio Code
+• Version Control: Git, GitHub
 # 핵심구현 및 로직
 ## 1. 전역 상태 기반의 데이터 아키텍처 (Redux Flow)
 단순한 데이터 전달을 넘어, 프로젝트 전체의 데이터 일관성을 위해 Redux Toolkit을 도입했습니다.
