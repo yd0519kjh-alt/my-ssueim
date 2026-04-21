@@ -16,7 +16,7 @@ Html, Css, Java script 기반으로 구현된 동적 웹 프로젝트
 
 • 프레임워크 및 라이브러리 : AXIOS,JQUERY
 
-• 툴 : VisualStudioCode, Figma
+• 툴 : VisualStudioCode
 
 • ETC : GIT, GITHUB
 
