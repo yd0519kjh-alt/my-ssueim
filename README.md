@@ -22,10 +22,15 @@ React와 Redux Toolkit을 활용하여 사용자 중심의 쇼핑 경험과 효�
 ### Programming Languages & Frameworks
 ### Libraries & Tools
 • State Management: Redux Toolkit
+
 • Data Fetching: Axios
+
 • Routing: React Router DOM
+
 • IDE: Visual Studio Code
+
 • Version Control: Git, GitHub
+
 # 핵심구현 및 로직
 ## 1. 전역 상태 기반의 데이터 아키텍처 (Redux Flow)
 단순한 데이터 전달을 넘어, 프로젝트 전체의 데이터 일관성을 위해 Redux Toolkit을 도입했습니다.
